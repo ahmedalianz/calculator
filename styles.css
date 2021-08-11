@@ -33,6 +33,7 @@ body {
     #colors {
         position: absolute;
         left: 45vw;
+        top:-35px;
         color: white;
     }
 
