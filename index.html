@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Calculator app</title>
+</head>
+<body>
+
+<div id="calcu" class="calculator-grid">
+  <div id="colors"><span id="the"> THEME</span>
+    <span id="c1">.</span>
+    <span id="c2">.</span>
+    <span id="c3">.</span>
+    <span id="c4">.</span>
+  </div>
+  <div class="output">
+    <input type="text" id="prev" class="prev">
+    <input type="text" id="current" class="current">
+  </div>
+  <button id="clear" value="Clear" class="span-three">Clear</button>
+  <button onclick="display('/')" value="/">/</button>
+  <button onclick="display('1')" value="1">1</button>
+  <button onclick="display('2')" value="2">2</button>
+  <button onclick="display('3')" value="3">3</button>
+  <button onclick="display('*')" value="*">*</button>
+  <button onclick="display('4')" value="4">4</button>
+  <button onclick="display('5')" value="5">5</button>
+  <button onclick="display('6')" value="6">6</button>
+  <button onclick="display('+')" value="+">+</button>
+  <button onclick="display('7')" value="7">7</button>
+  <button onclick="display('8')" value="8">8</button>
+  <button onclick="display('9')" value="9">9</button>
+  <button onclick="display('-')" value="-">-</button>
+  <button onclick="display('.')" value=".">.</button>
+  <button onclick="display('0')" value="0">0</button>
+  <button id="evaluate" value="=" class="span-two">=</button>
+</div>
+<script src="java.js"></script>
+</body>
+</html>
